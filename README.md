@@ -4,7 +4,7 @@
 
 [Android动画三：使用 Transition 最简单方式实现动画](article3.md)
 
-[Android动画四：Animator 使用教程详解](article4.md)
+[Android动画四：逐帧、视图、属性动画使用教程详解](article4.md)
 
 [Android动画五：水波纹散开效果实现](article5.md)
 

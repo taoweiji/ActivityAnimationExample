@@ -1,5 +1,5 @@
 
-# Android动画四：Animator 使用教程详解
+# Android动画四：逐帧、视图、属性动画使用教程详解
 Android 动画主要分为3种：
 1. 逐帧动画（Drawable Animation）
 2. 视图动画/补间动画（View Animation）
