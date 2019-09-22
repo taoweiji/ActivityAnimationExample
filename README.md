@@ -10,6 +10,7 @@
 
 [Android动画六：Interpolator 实现匀速、加速、减速、抛物线速率等效果](article6.md)
 
+[Android动画七：ConstraintLayout 通过XML和Java两种方式实现动画](article7.md)
 
 
 
