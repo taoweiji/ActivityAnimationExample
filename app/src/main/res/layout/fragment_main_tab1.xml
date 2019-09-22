@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <Button
+        android:id="@+id/button_explode1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分解" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_explode2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="分解二" />-->
+
+    <Button
+        android:id="@+id/button_pair1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="共享元素一"
+        android:transitionName="button_pair1" />
+
+
+    <Button
+        android:id="@+id/button_pair2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="共享元素二"
+        android:transitionName="button_pair2" />
+
+
+    <Button
+        android:id="@+id/button_pair3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="共享元素三"
+        android:transitionName="button_pair3" />
+
+
+    <Button
+        android:id="@+id/button_slide1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="滑动一" />
+
+    <Button
+        android:id="@+id/button_slide2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="滑动二" />
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_slide3"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="滑动三" />-->
+
+    <Button
+        android:id="@+id/button_fade1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="淡入淡出" />
+
+
+</LinearLayout>
