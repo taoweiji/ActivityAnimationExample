@@ -1,6 +1,7 @@
 package com.taoweiji.activity.transition.example
 
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
@@ -14,6 +15,7 @@ class OverridePendingTransitionTargetActivity : AppCompatActivity(),
         setTheme(R.style.ThemeOverlay_AppCompat_Dark)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_override_pending_transition_target)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         title = javaClass.simpleName
         val data = arrayOf("从右离开", "从左离开", "顶部离开", "底部离开", "淡出")
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, data)
@@ -46,6 +48,15 @@ class OverridePendingTransitionTargetActivity : AppCompatActivity(),
             4 -> {
                 overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
             }
+        }
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
         }
     }
 }
