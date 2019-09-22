@@ -6,11 +6,14 @@
 
 [Android动画四：逐帧、视图、属性动画使用教程详解](article4.md)
 
-[Android动画五：水波纹散开效果实现](article5.md)
+[Android动画五：ConstraintLayout 通过XML和Java两种方式实现动画](article5.md)
 
 [Android动画六：Interpolator 实现匀速、加速、减速、抛物线速率等效果](article6.md)
 
-[Android动画七：ConstraintLayout 通过XML和Java两种方式实现动画](article7.md)
+
+
+
+
 
 
 
