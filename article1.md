@@ -116,6 +116,3 @@ exitAnim（activity_top_to_bottom_exit.xml）：Y轴从 0 到 100%
 finish()
 overridePendingTransition(0, R.anim.activity_top_to_bottom_exit)
 ```
-#### 完整示例代码
-
-[https://github.com/taoweiji/ActivityTransitionExample](https://github.com/taoweiji/ActivityTransitionExample)

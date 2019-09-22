@@ -9,7 +9,8 @@ import com.taoweiji.activity.transition.example.R
 private val TAB_TITLES = arrayOf(
     R.string.tab_text_1,
     R.string.tab_text_2,
-    R.string.tab_text_3
+    R.string.tab_text_3,
+    R.string.tab_text_4
 )
 
 class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) :
@@ -19,7 +20,8 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) :
         return when (position) {
             0 -> MainTab1Fragment()
             1 -> MainTab2Fragment()
-            else -> MainTab3Fragment()
+            2 -> MainTab3Fragment()
+            else -> MainTab4Fragment()
         }
     }
 
@@ -28,6 +30,6 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) :
     }
 
     override fun getCount(): Int {
-        return 3
+        return 4
     }
 }

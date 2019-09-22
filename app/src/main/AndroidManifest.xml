@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TransitionActivity"></activity>
-        <activity android:name=".TargetActivity" />
+        <activity android:name=".PropertyAnimationActivity"></activity>
+        <activity android:name=".ViewAnimation2Activity" />
+        <activity android:name=".ViewAnimation1Activity" />
+        <activity android:name=".AnimationFrameActivity" />
+        <activity android:name=".TransitionActivity" />
+        <activity android:name=".TransitionTargetActivity" />
         <activity android:name=".FadeActivity" />
         <activity android:name=".SlideActivity" />
         <activity android:name=".ExplodeActivity" />

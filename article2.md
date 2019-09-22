@@ -8,7 +8,7 @@
 val bundle = ActivityOptions.makeSceneTransitionAnimation(activity).toBundle()
 startActivity(Intent(activity, TargetActivity::class.java), bundle)
 ```
-TargetActivity.kt
+TransitionTargetActivity.kt
 ```kotlin
 class TargetActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +45,7 @@ activity_target.xml
         android:transitionName="button_pair1" />
 </LinearLayout>
 ```
-TargetActivity.kt
+TransitionTargetActivity.kt
 ```kotlin
 class TargetActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -60,7 +60,7 @@ class TargetActivity : AppCompatActivity() {
 val bundle = ActivityOptions.makeSceneTransitionAnimation(activity).toBundle()
 startActivity(Intent(activity, TargetActivity::class.java), bundle)
 ```
-TargetActivity.kt
+TransitionTargetActivity.kt
 ```kotlin
 class TargetActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -78,7 +78,7 @@ class TargetActivity : AppCompatActivity() {
 val bundle = ActivityOptions.makeSceneTransitionAnimation(activity).toBundle()
 startActivity(Intent(activity, TargetActivity::class.java), bundle)
 ```
-TargetActivity.kt
+TransitionTargetActivity.kt
 ```kotlin
 class TargetActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -136,7 +136,7 @@ class MainTab1Fragment : Fragment() {
     }
 }
 ```
-TargetActivity.kt
+TransitionTargetActivity.kt
 ```
 class TargetActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -232,7 +232,3 @@ activity_target.xml
         android:text="淡入淡出" />
 </LinearLayout>
 ```
-
-#### 完整示例代码
-
-[https://github.com/taoweiji/ActivityTransitionExample](https://github.com/taoweiji/ActivityTransitionExample)

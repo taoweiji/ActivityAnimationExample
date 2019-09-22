@@ -132,6 +132,3 @@ view_transition.xml
     </LinearLayout>
 </LinearLayout>
 ```
-#### 完整示例代码
-
-[https://github.com/taoweiji/ActivityTransitionExample](https://github.com/taoweiji/ActivityTransitionExample)

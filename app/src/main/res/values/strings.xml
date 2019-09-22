@@ -3,6 +3,7 @@
     <string name="tab_text_1">5.0过渡动画</string>
     <string name="tab_text_2">普通过渡动画</string>
     <string name="tab_text_3">Transition动画</string>
+    <string name="tab_text_4">Animator动画</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
